@@ -32,7 +32,7 @@ body {
 
 @keyframes typing {
     from { width: 0; }
-    to { width: 8ch; }
+    to { width: max-content; }
 }
 
 @keyframes blink-caret {
@@ -41,7 +41,9 @@ body {
 }
 
 .hidden {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s;
 }
 
 #content {
