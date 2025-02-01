@@ -43,15 +43,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Função para mostrar o conteúdo da página
     function showContent() {
-        const loader = document.getElementById('loader');
-        const content = document.getElementById('content');
-
-        loader.classList.add('hidden');
-        content.classList.remove('hidden');
-        content.classList.add('visible');
+        window.location.href = '../../public/html/homepage.html'; // Redireciona para a página principal
     }
 
     // Garante que o texto inicie vazio
     typingText.textContent = "";
-    setTimeout(typeWriter, 1500); // Pequeno delay inicial para sincronizar com o zoom-in
+    setTimeout(typeWriter, 1500); // Pequeno delay inicial para sincronizar com o zoom-in - aletrar valor para quando iniciar o site
 });
