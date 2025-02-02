@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Função para mostrar o conteúdo da página
     function showContent() {
-        window.location.href = '../../public/html/homepage.html'; // Redireciona para a página principal
+        window.location.href = '../html/homepage.html'; // Redireciona para a página principal - editar se preciso
     }
 
     // Garante que o texto inicie vazio
