@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}/*se quiser aumentar o footer, remove isto*/
+
+h1 {
+    margin-bottom: 20px;
+}
+
 .color-changing-line {
     border: 0;
     height: 2px;
@@ -12,25 +22,33 @@
     100% { background-position: 0% 50%; }
 }
 
-.calendar-table {
+#conteudo {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    border-collapse: collapse;
+    max-width: 1200px;
+    min-height: 200px; /* Define uma altura mínima para manter o layout estático */
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
 }
 
-.calendar-table th, .calendar-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
+#conteudo.fade-out {
+    opacity: 0;
 }
 
-.calendar-table th {
-    background-color: #f2f2f2;
+.testemunho {
+    width: 45%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px; /* Adiciona margem ao redor dos testemunhos */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Garante que as estrelas fiquem na parte inferior */
+    min-height: 150px; /* Define uma altura mínima para os testemunhos */
 }
 
-.event {
-    display: block;
-    background-color: #ffcc00;
-    padding: 2px;
-    margin-top: 5px;
-    border-radius: 3px;
+.estrelas {
+    color: gold;
+    font-size: 1.5em;
+    align-self: flex-end; /* Alinha as estrelas à direita */
 }

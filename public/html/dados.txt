@@ -1,2 +1,35 @@
-Este é um exemplo de conteúdo de um arquivo TXT.
-Você pode adicionar qualquer texto aqui.
+Nome: Tiago Rosário
+Descrição: Um rapaz singelo sempre preocupado com o bem-estar de todos os espectadores.
+Avaliação: 5
+
+Nome: At0mic_24
+Descrição: Muito comunicativo com o chat.
+Avaliação: 5
+
+Nome: Mistercasselhas07
+Descrição: Um excelente streamer.
+Avaliação: 5
+
+Nome: Toucs
+Descrição: Muito bom streamer, é brincalhão, fala com o chat.
+Avaliação: 5
+
+Nome: Beatriz
+Descrição: Incrível
+Avaliação: 5
+
+Nome: l4zy_06
+Descrição: Incrível, sabe animar um chat sozinho
+Avaliação: 5
+
+Nome: Joao_pedro2121
+Descrição: Melhor streamer do mundo, adoro ver este miúdo a crescer.
+Avaliação: 5
+
+Nome: Tuuuk10415
+Descrição: Toooooop, super humilde e gente boa... Sempre com boa vibe e bem disposto.
+Avaliação: 5
+
+Nome: Bruno
+Descrição: Divertido.
+Avaliação: 5
