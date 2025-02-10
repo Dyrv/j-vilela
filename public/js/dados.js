@@ -1,4 +1,4 @@
-fetch('dados.txt')
+fetch('../database/dados.txt')
     .then(response => response.text())
     .then(data => {
         const testemunhos = data.trim().split(/\r?\n\r?\n/); // Dividir por linhas em branco, considerando \r e \n
