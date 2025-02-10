@@ -1,0 +1,2 @@
+Este é um exemplo de conteúdo de um arquivo TXT.
+Você pode adicionar qualquer texto aqui.
