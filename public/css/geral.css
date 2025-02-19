@@ -3,6 +3,7 @@
 }
 
 body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #121212;
     color: #f5f5f5;
@@ -11,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 8%; /* Ajuste conforme necessário para criar espaço para a navegação */
     align-items: center;
 }
 
@@ -31,13 +31,17 @@ h1 {
     height: 90px;
     justify-content: space-between;
     align-items: center;
-    background: #1e1f23;
+    background-color: #1e1f23;
     font-family: Arial, sans-serif;
-    position: fixed; /* Altere para fixed para que a navegação fique fixa no topo */
+    position: sticky; /* Altere para fixed para que a navegação fique fixa no topo */
     top: 0;
     width: 100%;
     z-index: 1000;
     color: white; /* Ajuste conforme o design */
+    padding: 0 20px;
+    border-bottom-left-radius: 10px; /* Bordas arredondadas na parte inferior */
+    border-bottom-right-radius: 10px; /* Bordas arredondadas na parte inferior */
+    margin-bottom: 50px;
 }
 
 .nav-links {
@@ -91,9 +95,12 @@ h1 {
         flex-direction: column;
         background-color: #333;
         position: absolute;
-        top: 60px; /* Abaixo da barra */
+        top: 100%; /* Abaixo da barra */
         right: 0;
         width: 100%; /* Ocupa toda a largura */
+        z-index: 10; /* Mantém o menu sobre o conteúdo, mas abaixo da navbar */
+        border-radius: 10px; /* Ajusta conforme a navbar */
+        overflow: hidden; /* Evita que os cantos arredondados sejam cortados */
     }
 
     .nav-links.show {
@@ -108,6 +115,9 @@ h1 {
 
     .menu-icon {
         display: block; /* Mostra o ícone no mobile */
+        position: relative;
+
+        z-index: 20; /* Garante que o ícone do menu fica acessível */
     }
 }
 
